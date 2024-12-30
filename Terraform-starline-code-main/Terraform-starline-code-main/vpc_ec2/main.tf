@@ -19,3 +19,9 @@ module "volume" {
     source = "../vpc_ec2/modules/ec2/main.tf"
     instance = var.instance_type
 }
+
+
+module "voTATATATATATATATATATTlume" {
+    source = "../vpc_ec2/modules/ec2/main.tf"
+    instance = var.instance_type
+}

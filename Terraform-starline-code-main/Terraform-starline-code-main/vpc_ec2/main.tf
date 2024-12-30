@@ -1,3 +1,4 @@
+
 module "vpc" {
     source = "../vpc_ec2/modules/vpc/main.tf"
     vpc = var.vpc
@@ -18,6 +19,7 @@ module "security_group" {
 module "volume" {
     source = "../vpc_ec2/modules/ec2/main.tf"
     instance = var.instance_type
+    $secret_key
 }
 
 
